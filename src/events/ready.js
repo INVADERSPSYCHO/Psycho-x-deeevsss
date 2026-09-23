@@ -23,7 +23,7 @@ export default {
     once: true,
     async execute(client) {
         client.user.setPresence({
-            activities: [{ name: `Quest Completer V1 | ${PREFIX}help`, type: ActivityType.Watching }],
+            activities: [{ name: `Psycho X quest auto | ${PREFIX}help`, type: ActivityType.Watching }],
             status: 'online',
         });
 
